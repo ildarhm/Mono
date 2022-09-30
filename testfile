@@ -5,3 +5,5 @@ And one more edit the same way
 Now editing in Monorepo/third_test/appone/library-one
 Now tryin to edit in Library directly, expecting conflict
 Edited in Monorepo/Library (eighth test)
+----------
+Edited in Lib-for-Tests
