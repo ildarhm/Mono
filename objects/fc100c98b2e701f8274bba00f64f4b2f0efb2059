@@ -1,0 +1,7 @@
+[map "0153f424-0c67-37dc-ae2c-fca820c49595"]
+	object = 5c42a0de99570099eba7fb6b3db0f3849e0c6e08
+	path = from-app
+	type = expand module
+[map "c003b3d8-e234-3a18-b596-b5107d35d5fc"]
+	object = d20199369e0caf1e180466e6dce0fd41eeda6c5d
+	type = include + expand tree

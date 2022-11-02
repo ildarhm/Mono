@@ -1,0 +1,24 @@
+[module "ebd0201e-ffb7-31a6-9405-4b0ae5965b4f"]
+	conflict = request-pull
+	path = from-app
+	pull = merge rebase
+	pull = squash always
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://ght/560723472
+[module "b42cfba8-34a6-3bd9-9d8f-d3f9b71de4aa"]
+	conflict = request-pull
+	path = lib-for-tests
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/large
+	url = agnostic://ght/560721151
+[map "b7836757-eca7-314e-b557-ae848bcbbbbb"]
+	object = fc100c98b2e701f8274bba00f64f4b2f0efb2059
+	path = from-app
+	stage = sync
+	type = extract module
+[map "e097dba0-d863-3f66-bc66-164d75fdf62f"]
+	object = 0a80f6411b7cf2f8009ac61d8f2d48f0e4fc8645
+	path = lib-for-tests
+	stage = sync
+	type = extract module
