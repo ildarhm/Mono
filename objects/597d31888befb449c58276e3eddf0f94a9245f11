@@ -1,0 +1,4 @@
+[map "9c247842-3133-3ae8-b629-bc909107cd6c"]
+	object = 35bb92af01ef5eecd6c82839814f8a466b60b92a
+	path = lib-for-tests
+	type = expand module
