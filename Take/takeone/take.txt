@@ -15,3 +15,6 @@ Edited in Lib1a/Take/takeone
 
 ===============
 here is an edit Ildar made
+
++++++++++++++++
+conflict 2nd try 
