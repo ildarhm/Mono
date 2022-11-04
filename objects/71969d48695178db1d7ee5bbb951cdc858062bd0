@@ -3,3 +3,7 @@
 	object = 8b9973a1a92d731809cd1b1baea5b984e9482c77
 	subtree = Take
 	type = extract tree + exclude
+[map "37772dca-d187-3a8f-9c44-3ba8dfe61e54"]
+	object = 0fcc69cda6ef651334cbb10b48bfa488ef77c7a7
+	path = module
+	type = expand module
