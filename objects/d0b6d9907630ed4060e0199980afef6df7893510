@@ -13,3 +13,8 @@
 	path = mod_subtree_squash
 	stage = sync
 	type = extract module + exclude
+[map "0ac85b79-6e24-363b-870a-343ef8030264"]
+	excludePath = *.txt
+	object = c12f91046617ef35a0d811c59a0fb90aac6f34b6
+	path = mod_rb_nosq
+	type = extract module + exclude

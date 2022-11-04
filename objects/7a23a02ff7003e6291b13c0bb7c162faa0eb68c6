@@ -1,0 +1,29 @@
+[map "c62300eb-0ae8-33f6-88f6-1befca5434f2"]
+	excludePath = *.xml
+	object = c6e9d1dcb3e04c55c8379022136d7cc480cd24e4
+	path = mod_subtree_squash
+	stage = sync
+	type = extract module + exclude
+[map "a80bd54a-6021-3502-aea1-f99c2b39cb14"]
+	excludePath = *.txt
+	object = b293c6a8911e3b4bc05de98c36160605183b5093
+	path = mod_rb_nosq
+	type = extract module + exclude
+[module "859215c6-34b4-32a0-bb52-0da0f0e68ebd"]
+	conflict = request-pull
+	excludePath = *.xml
+	path = mod_subtree_squash
+	pull = merge subtree
+	pull = squash always
+	ref = if refs/heads/main sync refs/heads/large
+	subtree = Take
+	url = agnostic://ght/560721151
+[module "61f41ef2-4d19-3d04-9b36-64e37b6e32f4"]
+	conflict = request-pull
+	excludePath = *.txt
+	path = mod_rb_nosq
+	pull = merge rebase
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/large
+	subtree = Take
+	url = agnostic://ght/560721151

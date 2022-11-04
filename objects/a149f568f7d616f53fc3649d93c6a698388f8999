@@ -1,0 +1,15 @@
+[map "d341147e-4e6d-314b-8b7e-b477ae5d7495"]
+	excludePath = *.txt
+	object = 5fb5cd1dc53f1ae2fd6fff7a7723180d54c22318
+	subtree = Take
+	type = include + expand tree
+[map "753faf39-f585-385b-a4da-711f3f79fd7c"]
+	excludePath = *.txt
+	object = 0a323e522ace323eae7ddeeca387e561d7479a89
+	subtree = Take
+	type = include + expand tree
+[map "ad32d13b-53bc-3f82-8179-9249d06e6525"]
+	excludePath = *.txt
+	object = c895738c212b7450401d09689c37713ed00cd1d1
+	path = mod_rb_nosq
+	type = include + expand module

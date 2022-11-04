@@ -2,3 +2,8 @@
 	object = 4c09d971f1cd44011a2cb69353a0d07ead15a9bf
 	path = lib-for-tests
 	type = expand module
+[map "bf2f6545-120f-3c31-99b0-d1265403bfb6"]
+	excludePath = *.txt
+	object = d5a343bc717617a0383e752658d78a263a58ddd3
+	subtree = Take
+	type = extract tree + exclude

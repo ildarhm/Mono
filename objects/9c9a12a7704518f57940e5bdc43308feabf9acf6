@@ -1,0 +1,5 @@
+[map "76728b1d-4e4e-3dd6-b28a-a34b6ebe6023"]
+	excludePath = *.txt
+	object = 59e4bbae0f350fde310b343c3753cf42b7f80731
+	subtree = Take
+	type = extract tree + exclude
