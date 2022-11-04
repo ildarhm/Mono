@@ -1,0 +1,12 @@
+[map "28a06c0e-4665-3b9b-81a1-27d7700f333b"]
+	object = 597d31888befb449c58276e3eddf0f94a9245f11
+	path = lib-for-tests
+	stage = sync
+	type = extract module
+[module "b42cfba8-34a6-3bd9-9d8f-d3f9b71de4aa"]
+	conflict = request-pull
+	path = lib-for-tests
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/large
+	url = agnostic://ght/560721151
