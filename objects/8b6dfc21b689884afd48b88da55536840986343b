@@ -1,10 +1,10 @@
-[map "3621e679-bbd7-3fac-8eb4-9cb7c1f8a5c1"]
-	excludePath = *.xml
+[map "dd1cbdbe-5dc8-3444-a28f-01d6ee2644fb"]
+	excludePath = *.txt
 	object = 502b4465402127fb24f8d1e3a24c338b23ec0ed3
 	subtree = Take
 	type = include + expand tree
-[map "39bc097d-ba77-38c5-8798-b35e1417056f"]
-	excludePath = *.xml
+[map "dfa5ab2f-ab23-3f8c-89e5-4d0b304c3d56"]
+	excludePath = *.txt
 	object = d948e803088acfdd0ea0674d4c9a8565a6c67cd2
-	path = mod_subtree_squash
+	path = mod_rb_nosq
 	type = include + expand module
