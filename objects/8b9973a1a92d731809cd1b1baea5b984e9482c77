@@ -1,0 +1,10 @@
+[map "8fb09633-3035-39c8-978f-c462b0ada14c"]
+	excludePath = *.xml
+	object = 71969d48695178db1d7ee5bbb951cdc858062bd0
+	subtree = Take
+	type = include + expand tree
+[map "674112c1-8850-3c10-978f-aaa1ac0199e2"]
+	excludePath = *.xml
+	object = c7501f83af650a8a4a788971a736b3a0bc550b21
+	path = mod_subtree_squash
+	type = include + expand module

@@ -1,0 +1,15 @@
+[module "859215c6-34b4-32a0-bb52-0da0f0e68ebd"]
+	conflict = request-pull
+	excludePath = *.xml
+	path = mod_subtree_squash
+	pull = merge subtree
+	pull = squash always
+	ref = if refs/heads/main sync refs/heads/main
+	subtree = Take
+	url = agnostic://ght/560721151
+[map "0fb7adfd-63ac-3ea0-a9ed-9299c98b2a80"]
+	excludePath = *.xml
+	object = 8b9973a1a92d731809cd1b1baea5b984e9482c77
+	path = mod_subtree_squash
+	stage = sync
+	type = extract module + exclude
