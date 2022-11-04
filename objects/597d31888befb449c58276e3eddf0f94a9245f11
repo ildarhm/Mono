@@ -2,3 +2,8 @@
 	object = 6c78e034845726987676de2a080c41c71ebad120
 	path = lib-for-tests
 	type = expand module
+[map "67d16270-f580-38ba-a376-403d24fdb565"]
+	excludePath = *.xml
+	object = c6e9d1dcb3e04c55c8379022136d7cc480cd24e4
+	subtree = Take
+	type = extract tree + exclude
