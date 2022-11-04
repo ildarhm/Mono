@@ -3,3 +3,8 @@
 	object = 0eb53f8b798a329205de6461a81098252e145291
 	subtree = Take
 	type = extract tree + exclude
+[map "bf2f6545-120f-3c31-99b0-d1265403bfb6"]
+	excludePath = *.txt
+	object = d5a343bc717617a0383e752658d78a263a58ddd3
+	subtree = Take
+	type = extract tree + exclude
